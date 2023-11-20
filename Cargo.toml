@@ -3,7 +3,12 @@ name = "fuzz-introspector-client"
 version = "0.0.1"
 edition = "2021"
 authors = ["Nathaniel Brough <nathaniel.brough@gmail.com>"]
-
+description = "An unofficial client library for the fuzz introspector API."
+documentation = "https://docs.rs/fuzz-introspector-client"
+repository = "https://github.com/silvergasp/fuzz-introspector-client"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["oss-fuzz", "fuzz", "api", "introspector"]
 
 [dependencies]
 anyhow = "1.0.75"
@@ -16,6 +21,7 @@ thiserror = "1.0.50"
 [dev-dependencies]
 tokio = { version = "1.34.0", features = ["macros", "rt-multi-thread"] }
 clap = { version = "4.4.8", features = ["derive"] }
+tokio-test = "0.4.3"
 
 [[example]]
 name = "introspector_query"
