@@ -1,6 +1,6 @@
 [package]
 name = "fuzz-introspector-client"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Nathaniel Brough <nathaniel.brough@gmail.com>"]
 description = "An unofficial client library for the fuzz introspector API."
