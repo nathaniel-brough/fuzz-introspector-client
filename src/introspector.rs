@@ -87,7 +87,7 @@ pub mod types {
         pub struct AnnotatedCfg {
             pub destinations: Vec<Destination>,
             pub fuzzer_name: String,
-            pub src_file: String,
+            pub source_file: String,
         }
 
         #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -161,7 +161,7 @@ pub mod types {
         pub struct AnnotatedCfg {
             pub destinations: Vec<Destination>,
             pub fuzzer_name: String,
-            pub src_file: String,
+            pub source_file: String,
         }
 
         #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
