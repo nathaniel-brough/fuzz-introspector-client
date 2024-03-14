@@ -21,7 +21,7 @@ thiserror = "1.0.57"
 [dev-dependencies]
 tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread"] }
 clap = { version = "4.5.1", features = ["derive"] }
-tokio-test = "0.4.3"
+tokio-test = "0.4.4"
 
 [[example]]
 name = "introspector_query"
